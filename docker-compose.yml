@@ -52,7 +52,9 @@ services:
 
 volumes:
   elasticsearch-data:
+    driver: gluster-vol1
   kibana-data:
+    driver: gluster-vol1
 
 networks:
   pareto-anywhere-elastic:
